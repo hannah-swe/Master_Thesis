@@ -157,3 +157,5 @@ for subject_id in sub_ids[11:12]:
 
     # Clean up variables to free memory
     del raw_orig, raw, raw_filt, reconst_raw_filt, reconst_raw, epochs, ica
+
+# test
