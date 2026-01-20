@@ -22,4 +22,3 @@ bads = {
     "SP_EEG_P0088": ["Fp1"],
     "SP_EEG_P0088a": ["Fp1"]
 }
-print("test")

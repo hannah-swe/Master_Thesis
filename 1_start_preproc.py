@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from bad_channels import bads
 plt.ion()
-print("test")
+
 # Set MNE logging level to INFO to get informative messages during processing
 mne.set_log_level("INFO")
 

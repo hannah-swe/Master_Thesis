@@ -14,7 +14,7 @@ plt.style.use('fast')
 os.environ.pop("MNE_QT_BACKEND", None)
 mne.viz.set_browser_backend("matplotlib")
 matplotlib.use("TkAgg", force=True)
-print("test")
+
 data_path = "/Volumes/SSK Drive/Data/derivatives"   # Path to the raw EEG data
 sub_ids = sorted(os.listdir(data_path))     # Get a sorted list of subject directories
 subject_rejected_components = []    # Initialize list to collect ICA rejection data
