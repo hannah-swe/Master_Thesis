@@ -11,7 +11,7 @@ plt.style.use("fast")
 os.environ.pop("MNE_QT_BACKEND", None)
 mne.viz.set_browser_backend("matplotlib")
 matplotlib.use("TkAgg", force=True)
-
+print("test")
 
 data_path = "/Volumes/SSK Drive/Data/derivatives"   # Define data path
 sub_ids = sorted(os.listdir(data_path))     # List and sort all subject folders

@@ -15,7 +15,7 @@ plt.style.use('fast')
 os.environ.pop("MNE_QT_BACKEND", None)
 mne.viz.set_browser_backend("matplotlib")
 matplotlib.use("TkAgg", force=True)
-
+print("test")
 # Read csv file with all metadata information
 df = pd.read_csv('/Volumes/SSK Drive/Data/supratyp-dataframe-all-subjects.csv')
 

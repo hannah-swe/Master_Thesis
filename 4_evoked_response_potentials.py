@@ -7,7 +7,7 @@ from pathlib import Path
 from mne.stats import permutation_cluster_1samp_test
 from mne.stats import permutation_cluster_test
 from scipy.stats import sem, t
-
+print("test")
 # Ensure proper visualization backend
 plt.ion()
 plt.style.use('fast')

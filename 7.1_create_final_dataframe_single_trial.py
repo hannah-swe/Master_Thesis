@@ -11,7 +11,7 @@ plt.style.use('fast')
 os.environ.pop("MNE_QT_BACKEND", None)
 mne.viz.set_browser_backend("matplotlib")
 matplotlib.use("TkAgg", force=True)
-
+print("test")
 # Define data paths
 data_path = "/Volumes/SSK Drive/Data/derivatives"   # Epoch files
 demogr_data_path = "/Volumes/SSK Drive/Data/demographics/demographics_SUPRATYP_CBBM.csv"    # Demographical data

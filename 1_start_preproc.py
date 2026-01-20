@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from bad_channels import bads
 plt.ion()
-
+print("test")
 # Set MNE logging level to INFO to get informative messages during processing
 mne.set_log_level("INFO")
 
@@ -157,5 +157,3 @@ for subject_id in sub_ids[11:12]:
 
     # Clean up variables to free memory
     del raw_orig, raw, raw_filt, reconst_raw_filt, reconst_raw, epochs, ica
-
-# test
